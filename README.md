@@ -1,3 +1,5 @@
+# A personal fork of
+
 # wikibinator203
 
 U is a universal combinator, some combos (TODO) GPU optimizable. A node is U or a pair of nodes (lambda call). Every node returns a node or never halts. These 3 edge types (L R EvalsTo) are a constant infinite size directed-graph. Any software fills graph in from partial pattern is AGI.
