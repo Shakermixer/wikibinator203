@@ -1,17 +1,25 @@
 ## A personal fork of 
 
-# wikibinator203 by Lambda Rick
+# wikibinator203 by Lambda Rick / benrayfield
 
-I will go through this stuff and experiment with it, for now i go through it & make it browsable an dreadable for noobs, and try to understand it. When i add something as comment for me, that will be recognizable. So without further ado, in words of the creator:
+I will go through this stuff and experiment with it, for now i go through it & make it browsable an readable for noobs, and try to understand it. When i add something as comment for me, that will be recognizable. So without further ado, in words of the creator:
 
 # Original README.md
 
-U is a universal combinator, some combos (TODO) GPU optimizable. A node is U or a pair of nodes (lambda call). Every node returns a node or never halts. These 3 edge types (L R EvalsTo) are a constant infinite size directed-graph. Any software fills graph in from partial pattern is AGI.
+U is a universal combinator, some combos (TODO) GPU optimizable. 
+
+A node is U or a pair of nodes (lambda call). 
+
+Every node returns a node or never halts. 
+
+These 3 edge types (L R EvalsTo) are a constant infinite size directed-graph. 
+
+Any software fills graph in from partial pattern is AGI.
 
 On browser console vm.eval('[the Hypot#λ[x y <Sqrt <+ <Sqr#λ[z <* z% z%>] x%> <Sqr y%>>>] of 6 and 8 is (Hypot 6 8) and the L of Hypot is (L Hypot) and its R is (R Hypot) and of 6 and 2.34 is (Hypot 6 2.34) like in the pic in the readme]')+'' returns '[the Hypot#(λ [x y <Sqrt <+ <Sqr#(λ [z <* z% z%>]) x%> <Sqr y%>>>]) of 6 and 8 is 10 and the L of Hypot is λ and its R is [x y <Sqrt <+ <Sqr x%> <Sqr y%>>>] and of 6 and 2.34 is 6.440155277631122 like in the pic in the readme]'.
-
+<br>
 <img src=https://raw.githubusercontent.com/benrayfield/wikibinator203/main/doc/pic/2022-11-5-840aEST%20nearly%20first%20drag%20and%20drop%20of%20lambda%20onto%20lambda%20to%20create%20lambda%20(Hypot%206%202.34).png>
-
+<br>
 <hr><hr>
 UPDATE: Axgob.js ( https://github.com/benrayfield/DagBall/blob/main/lib/Axgob.js ) is the next version after Wikibinator203 and as of 2024-4-14 is barely working. Im planning to get dagball playable online, then do LeastSquaresNeuralQlearn.js in its libs dir, then get Axgob working and do such qlearning to play dagball and to call lambda on lambda to find/create lambda, using all 3 (dagball, axgob, qlearning) together in an opensource peer to peer network. Axgob has 96 bits of literal data: 2 of primt (other, int, float, unicode), 3 of primz (size of primitive type), 27 of bitstring size (up to 2**27 bits), and 64 bits per node of any data you want, which is similar to cbt in wikibinator203. Axgob does perfect dedup at that level and will have an Axblob object that does not have perfect dedup, which should make it run faster for nonbitstrings and small bitstrings, alot faster than wikibinator in theory. Axgob lambsass are constant size in memory, compared to wikibinator203 fns/lambdas are variable size cuz of having an optional byte array and blobFrom and blobTo ranges in it (which will be moved to Axblob class in Axgob.js). Axgob is alot simpler than wikibinator203, much smaller js file size, and comes with an optimization designed for video games of every axgob has a mutable p (position) v (velocity) and a few more temp vars, computed between calls of doPhysics, which all together can be viewed in math as lambda that takes a treemap of axgob to those states (not completely decided what data structure will go in the treemap) and returns a forkEdited treemap. Axgob/lambda is key. position and velocity (and the temp vars) are value. Its meant to scale up to thousands of objects on screen at once with custom game rules (see axgob opcodes: Field, Rule). Wikibinator203 will stay mostly as it is.
 OLD: Planned schedule (now is 2023-8):
