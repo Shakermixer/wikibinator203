@@ -1,8 +1,10 @@
-# A personal fork of 
+## A personal fork of 
 
 # wikibinator203 by Lambda Rick
 
-I will go through this stuff and experiment with it, for now i go through it & make it browsable an dreadable for noobs, and try to understand it. So without further ado, in words of the creator:
+I will go through this stuff and experiment with it, for now i go through it & make it browsable an dreadable for noobs, and try to understand it. When i add something as comment for me, that will be recognizable. So without further ado, in words of the creator:
+
+# Original README.md
 
 U is a universal combinator, some combos (TODO) GPU optimizable. A node is U or a pair of nodes (lambda call). Every node returns a node or never halts. These 3 edge types (L R EvalsTo) are a constant infinite size directed-graph. Any software fills graph in from partial pattern is AGI.
 
