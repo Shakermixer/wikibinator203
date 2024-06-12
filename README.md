@@ -4,7 +4,7 @@
 
 I will go through this stuff and experiment with it, for now i go through it & make it browsable an readable for noobs, and try to understand it. When i add something as comment for me, that will be recognizable. So without further ado, in words of the creator:
 
-<hr><hr><hr><hr>
+<hr>
 
 # Original README.md
 
