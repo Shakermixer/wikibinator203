@@ -11,6 +11,9 @@ I will go through this stuff and experiment with it, for now i go through it & m
 U is a universal combinator, some combos (TODO) GPU optimizable. 
 
 <hr>
+
+<br>
+
 ### Additional info by me
 
 Here i found st interesting in SO:
