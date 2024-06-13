@@ -12,9 +12,10 @@ U is a universal combinator, some combos (TODO) GPU optimizable.
 
 <hr>
 ### Additional info by me
+
 Here i found st interesting in SO:
 
-
+<br>
 The smallest basis is the single point combinator A = λx λy λz. x z (y (λ_.z)) of size 4 abstractions + 3 applications, and of minimal size 26 bits in the binary lambda calculus.
 
 Minimal representations of S, K, and I are:
