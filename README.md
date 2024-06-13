@@ -10,7 +10,9 @@ I will go through this stuff and experiment with it, for now i go through it & m
 
 U is a universal combinator, some combos (TODO) GPU optimizable. 
 
-(Here i found st interesting in SO:
+<hr>
+### Additional info by me
+Here i found st interesting in SO:
 
 
 The smallest basis is the single point combinator A = λx λy λz. x z (y (λ_.z)) of size 4 abstractions + 3 applications, and of minimal size 26 bits in the binary lambda calculus.
@@ -25,7 +27,7 @@ I = A (A (A (A A) A)) (A (A A) A)
 
 Link:
 https://cstheory.stackexchange.com/questions/31883/smallest-possible-universal-combinator
-
+<hr>
 
 A node is U or a pair of nodes (lambda call). 
 
