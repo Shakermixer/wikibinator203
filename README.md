@@ -6,9 +6,26 @@ I will go through this stuff and experiment with it, for now i go through it & m
 
 <hr>
 
-# Original README.md
+## Original README.md
 
 U is a universal combinator, some combos (TODO) GPU optimizable. 
+
+(Here i found st interesting in SO:
+
+
+The smallest basis is the single point combinator A = λx λy λz. x z (y (λ_.z)) of size 4 abstractions + 3 applications, and of minimal size 26 bits in the binary lambda calculus.
+
+Minimal representations of S, K, and I are:
+
+S = A (A (A A (A A (A A))(A (A (A A (A A)))))) A A
+
+K = A (A A) (A (A A) A A A A A)
+
+I = A (A (A (A A) A)) (A (A A) A)
+
+Link:
+https://cstheory.stackexchange.com/questions/31883/smallest-possible-universal-combinator
+
 
 A node is U or a pair of nodes (lambda call). 
 
@@ -19,8 +36,8 @@ These 3 edge types (L R EvalsTo) are a constant infinite size directed-graph.
 Any software fills graph in from partial pattern is AGI.
 
 On browser console vm.eval('[the Hypot#λ[x y <Sqrt <+ <Sqr#λ[z <* z% z%>] x%> <Sqr y%>>>] of 6 and 8 is (Hypot 6 8) and the L of Hypot is (L Hypot) and its R is (R Hypot) and of 6 and 2.34 is (Hypot 6 2.34) like in the pic in the readme]')+'' returns '[the Hypot#(λ [x y <Sqrt <+ <Sqr#(λ [z <* z% z%>]) x%> <Sqr y%>>>]) of 6 and 8 is 10 and the L of Hypot is λ and its R is [x y <Sqrt <+ <Sqr x%> <Sqr y%>>>] and of 6 and 2.34 is 6.440155277631122 like in the pic in the readme]'.
-<hr><hr>
-<br>
+<hr>
+
 <br>
 <img src=https://raw.githubusercontent.com/benrayfield/wikibinator203/main/doc/pic/2022-11-5-840aEST%20nearly%20first%20drag%20and%20drop%20of%20lambda%20onto%20lambda%20to%20create%20lambda%20(Hypot%206%202.34).png>
 <br>
